@@ -8,9 +8,9 @@
 <meta property="og:title" content="Service Assessment Ready — Learning Platform">
 <meta property="og:description" content="Free interactive learning platform for UK government service assessments. Master the 14 Service Standard points and build better public services.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#F5F3EE">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231C1C2E'/><text x='32' y='42' font-family='sans-serif' font-size='22' font-weight='800' fill='%23F5F3EE' text-anchor='middle'>SAR</text></svg>">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#F9F9F8">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231C1C2E'/><text x='32' y='42' font-family='sans-serif' font-size='22' font-weight='800' fill='%23F9F9F8' text-anchor='middle'>SAR</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════════════════════
    SERVICE ASSESSMENT READY — DESIGN SYSTEM
@@ -50,11 +50,11 @@
   --red:    #C42B00;
 
   /* ── LIGHT GROUND (DEFAULT) ── */
-  --bg:       #F5F3EE;   /* Warm parchment */
-  --surface:  #FDFCF9;   /* Warmer than pure white */
-  --card:     #FDFCF9;
-  --card2:    #EEECE6;   /* Subtle warm tint */
-  --card3:    #E4E2DA;   /* Pressed / active state */
+  --bg:       #F9F9F8;   /* Clean neutral */
+  --surface:  #FFFFFF;   /* Pure white */
+  --card:     #FFFFFF;
+  --card2:    #F1F1EF;   /* Subtle neutral tint */
+  --card3:    #E8E8E5;   /* Pressed / active state */
   --text:     #1C1C2E;   /* Same as --ink — high contrast */
   --text-2:   #383848;   /* Secondary body text */
   --muted:    #5E5E72;   /* 5.2:1 on #F5F3EE — passes AA */
@@ -63,7 +63,7 @@
   --shadow-s: 0 1px 3px rgba(28,28,46,.06), 0 2px 8px rgba(28,28,46,.04);
   --shadow-m: 0 4px 14px rgba(28,28,46,.08), 0 8px 28px rgba(28,28,46,.05);
   --shadow-l: 0 12px 36px rgba(28,28,46,.1), 0 24px 60px rgba(28,28,46,.07);
-  --nav-bg:   rgba(245,243,238,.93);
+  --nav-bg:   rgba(249,249,248,.93);
   --overlay:  rgba(28,28,46,.5);
 
   /* Component tint fills */
@@ -81,11 +81,11 @@
   --border-teal:   rgba(12,100,100,.2);
   --border-violet: rgba(74,56,160,.2);
 
-  /* Hero H1 accent words */
-  --h1-1: #D63800;   /* Vermillion */
-  --h1-2: #0C6464;   /* Teal */
-  --h1-3: #4A38A0;   /* Violet */
-  --h1-4: #8C5A00;   /* Ochre */
+  /* Hero H1 accent words — unified teal */
+  --h1-1: #0C6464;
+  --h1-2: #0C6464;
+  --h1-3: #0C6464;
+  --h1-4: #0C6464;
 
   /* Hero background gradients — very subtle on parchment */
   --grad1: rgba(214,56,0,.06);
@@ -153,10 +153,10 @@
   --border-teal:   rgba(45,212,191,.24);
   --border-violet: rgba(167,139,250,.24);
 
-  --h1-1: #FF6B3D;
+  --h1-1: #2DD4BF;
   --h1-2: #2DD4BF;
-  --h1-3: #A78BFA;
-  --h1-4: #FCD34D;
+  --h1-3: #2DD4BF;
+  --h1-4: #2DD4BF;
 
   --grad1: rgba(255,107,61,.14);
   --grad2: rgba(167,139,250,.13);
@@ -201,7 +201,7 @@ body {
   left: 1rem;
   background: var(--ink);
   color: var(--bg);
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .85rem;
   font-weight: 800;
   padding: .6rem 1.2rem;
@@ -241,7 +241,7 @@ body {
 }
 
 .nav-brand {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .9rem;
   font-weight: 800;
   letter-spacing: -.01em;
@@ -255,7 +255,7 @@ body {
 .nav-brand-mark {
   background: var(--ink);
   color: var(--bg);
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .7rem;
   font-weight: 800;
   letter-spacing: .06em;
@@ -272,7 +272,7 @@ body {
   justify-content: center;
 }
 .nav-links a {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .75rem;
   font-weight: 700;
   letter-spacing: .06em;
@@ -317,7 +317,7 @@ body {
 
 /* Nav CTA */
 .nav-pro-btn {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .73rem;
   font-weight: 800;
   letter-spacing: .06em;
@@ -395,7 +395,7 @@ body {
 .mobile-menu a {
   display: block;
   padding: .75rem .5rem;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .85rem;
   font-weight: 700;
   letter-spacing: .04em;
@@ -432,7 +432,7 @@ body {
 
 /* H1 */
 .hero h1 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: clamp(2.8rem, 7vw, 6.5rem);
   font-weight: 800;
   line-height: .95;
@@ -490,7 +490,7 @@ body {
 }
 .pro-status-bar.visible { display: flex; }
 .pro-status-bar strong {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 800;
   font-size: .73rem;
   letter-spacing: .08em;
@@ -560,7 +560,7 @@ body {
 .lc-ready::after { background: var(--green); }
 
 .lead-card-eyebrow {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .65rem;
   font-weight: 800;
   letter-spacing: .15em;
@@ -575,7 +575,7 @@ body {
 .lc-ready .lead-card-eyebrow { color: var(--green); }
 
 .lead-card h2 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 800;
   line-height: 1.15;
@@ -600,7 +600,7 @@ body {
   padding-left: .75rem;
 }
 .lcs-num {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 2.6rem;
   font-weight: 800;
   line-height: 1;
@@ -618,7 +618,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: .5rem;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .82rem;
   font-weight: 800;
   border: none;
@@ -643,7 +643,7 @@ body {
 }
 .section-divider-line { flex: 1; height: 1px; background: var(--border-m); }
 .section-divider-label {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .68rem;
   font-weight: 800;
   letter-spacing: .14em;
@@ -709,7 +709,8 @@ body {
   justify-content: space-between;
   margin-bottom: 1rem;
 }
-.module-icon { font-size: 2rem; }
+.module-icon { width: 2rem; height: 2rem; color: var(--mc); flex-shrink: 0; }
+.module-icon svg { width: 100%; height: 100%; stroke-width: 1.75; }
 
 .module-label {
   font-size: .72rem;
@@ -721,7 +722,7 @@ body {
 }
 
 .module-card h3 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.15rem;
   font-weight: 700;
   line-height: 1.22;
@@ -749,7 +750,7 @@ body {
 }
 .start-arrow {
   margin-left: auto;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .78rem;
   font-weight: 700;
   display: flex;
@@ -773,7 +774,7 @@ body {
   border-radius: 1rem;
 }
 .free-tag {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .7rem;
   font-weight: 800;
   letter-spacing: .1em;
@@ -822,7 +823,7 @@ body {
 .close-btn:hover { background: var(--card3); }
 
 .player-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .95rem;
   font-weight: 700;
   white-space: nowrap;
@@ -889,7 +890,7 @@ body {
 }
 
 .slide h2 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: clamp(1.8rem, 4vw, 3.2rem);
   font-weight: 800;
   line-height: 1.05;
@@ -932,7 +933,7 @@ body {
   padding: .65rem 1.5rem;
   border-radius: 3rem;
   cursor: pointer;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .85rem;
   font-weight: 700;
   display: flex; align-items: center; gap: .5rem;
@@ -979,7 +980,7 @@ body {
 }
 .rag-label {
   display: flex; align-items: center; justify-content: center;
-  font-family: 'Syne', sans-serif; font-size: .85rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .85rem; font-weight: 800;
   letter-spacing: .08em; text-transform: uppercase; padding: 1rem;
 }
 .rag-label.green { background: var(--tint-green); color: var(--green); border-right: 2px solid var(--border-green); }
@@ -1005,7 +1006,7 @@ body {
 .case-outcome.pass  { background: var(--tint-green); color: var(--green); border: 1px solid var(--border-green); }
 .case-outcome.fail  { background: var(--tint-red);   color: var(--red);   border: 1px solid var(--border-red);   }
 .case-outcome.amber { background: var(--tint-amber); color: var(--amber); border: 1px solid var(--border-amber); }
-.case-title { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 700; margin-bottom: .75rem; color: var(--text); }
+.case-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.05rem; font-weight: 700; margin-bottom: .75rem; color: var(--text); }
 .case-body { font-size: .88rem; color: var(--text-2); line-height: 1.7; }
 .case-findings { margin-top: 1rem; display: flex; flex-direction: column; gap: .4rem; }
 .case-finding { display: flex; align-items: flex-start; gap: .6rem; font-size: .82rem; line-height: 1.5; color: var(--text-2); }
@@ -1022,9 +1023,9 @@ body {
   border-bottom: 1px solid var(--border);
   background: var(--card3);
 }
-.qa-q .q-mark { font-family: 'Syne', sans-serif; font-weight: 800; font-size: .9rem; flex-shrink: 0; color: var(--vermillion); }
+.qa-q .q-mark { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: .9rem; flex-shrink: 0; color: var(--vermillion); }
 .qa-a { padding: .9rem 1.1rem; font-size: .82rem; color: var(--muted); line-height: 1.6; display: flex; gap: .6rem; }
-.qa-a .a-mark { font-family: 'Syne', sans-serif; font-weight: 700; font-size: .9rem; flex-shrink: 0; color: var(--green); }
+.qa-a .a-mark { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: .9rem; flex-shrink: 0; color: var(--green); }
 
 /* Stat cards */
 .stat-row { display: flex; gap: 1rem; flex-wrap: wrap; animation: inUp .45s .4s ease both; }
@@ -1032,7 +1033,7 @@ body {
   background: var(--card2); border: 1px solid var(--border);
   border-radius: .75rem; padding: 1.25rem 1.5rem; min-width: 150px;
 }
-.stat-num { font-family: 'Syne', sans-serif; font-size: 2.2rem; font-weight: 800; line-height: 1; margin-bottom: .3rem; color: var(--text); }
+.stat-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 2.2rem; font-weight: 800; line-height: 1; margin-bottom: .3rem; color: var(--text); }
 .stat-label { font-size: .8rem; color: var(--muted); line-height: 1.4; }
 
 /* Pills */
@@ -1049,7 +1050,7 @@ body {
   color: var(--text);
 }
 .interview-q .iq-label {
-  font-family: 'Syne', sans-serif; font-size: .72rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .72rem; font-weight: 800;
   letter-spacing: .1em; text-transform: uppercase; flex-shrink: 0; margin-top: .1rem;
   color: var(--vermillion);
 }
@@ -1061,7 +1062,7 @@ body {
 }
 .interview-answer:last-child { border-bottom: none; }
 .score-badge {
-  font-family: 'Syne', sans-serif; font-size: .72rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .72rem; font-weight: 800;
   letter-spacing: .08em; text-transform: uppercase;
   padding: .25rem .6rem; border-radius: .4rem; text-align: center; margin-top: .1rem;
 }
@@ -1080,7 +1081,7 @@ body {
 }
 .role-icon { font-size: 2rem; flex-shrink: 0; }
 .role-meta { flex: 1; }
-.role-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: .95rem; margin-bottom: .2rem; color: var(--text); }
+.role-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: .95rem; margin-bottom: .2rem; color: var(--text); }
 .role-sub { font-size: .8rem; color: var(--muted); line-height: 1.5; }
 
 /* Slide body / grid / stat-callout */
@@ -1115,7 +1116,7 @@ body {
 }
 .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border-m); }
 .section-label span {
-  font-family: 'Syne', sans-serif; font-size: .72rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .72rem; font-weight: 800;
   letter-spacing: .14em; text-transform: uppercase; white-space: nowrap;
   padding: .3rem .9rem; border-radius: 2rem; border: 1px solid;
 }
@@ -1170,7 +1171,7 @@ body {
 
 .gate-icon { font-size: 2.5rem; margin-bottom: 1rem; display: block; }
 .gate-modal h2 {
-  font-family: 'Syne', sans-serif; font-size: 1.4rem; font-weight: 800; margin-bottom: .5rem; color: var(--text);
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.4rem; font-weight: 800; margin-bottom: .5rem; color: var(--text);
 }
 .gate-modal > p { font-size: .85rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.75rem; }
 
@@ -1201,7 +1202,7 @@ body {
   width: 100%; padding: .9rem;
   background: var(--vermillion); color: #fff;
   border: none; border-radius: .75rem;
-  font-family: 'Syne', sans-serif; font-size: .9rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .9rem; font-weight: 800;
   cursor: pointer;
   transition: opacity .15s, transform .15s, box-shadow .15s;
   min-height: 48px;
@@ -1234,7 +1235,7 @@ body {
 }
 .readiness-intro { text-align: center; }
 .readiness-intro h2 {
-  font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.5rem; font-weight: 800;
   margin-bottom: .5rem; color: var(--text);
 }
 .readiness-intro p { color: var(--muted); font-size: .88rem; max-width: 540px; margin: 0 auto 1.5rem; }
@@ -1242,7 +1243,7 @@ body {
   background: var(--vermillion); color: #fff;
   border: none; border-radius: 2rem;
   padding: .7rem 1.75rem;
-  font-family: 'Syne', sans-serif; font-size: .88rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .88rem; font-weight: 800;
   cursor: pointer;
   transition: opacity .15s, transform .15s, box-shadow .15s;
   box-shadow: 0 2px 10px rgba(214,56,0,.22);
@@ -1257,7 +1258,7 @@ body {
 }
 .r-progress-fill { height: 5px; background: var(--vermillion); border-radius: 3px; transition: width .4s ease; }
 .r-point-label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-bottom: .4rem; }
-.r-question-text { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; line-height: 1.4; color: var(--text); }
+.r-question-text { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; line-height: 1.4; color: var(--text); }
 .r-options { display: flex; flex-direction: column; gap: .5rem; margin-bottom: .75rem; }
 .r-option {
   background: var(--card2); border: 1px solid var(--border-m);
@@ -1280,7 +1281,7 @@ body {
   background: var(--card2); border: 1px solid var(--border-m);
   color: var(--text); border-radius: 2rem; padding: .5rem 1.25rem;
   font-size: .82rem; cursor: pointer;
-  font-family: 'Syne', sans-serif; font-weight: 700;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;
   transition: background .15s, box-shadow .15s;
   min-height: 44px;
 }
@@ -1291,21 +1292,21 @@ body {
 .readiness-results { display: none; }
 .readiness-results.active { display: block; }
 .r-score-header { text-align: center; margin-bottom: 1.75rem; }
-.r-overall-score { font-family: 'Syne', sans-serif; font-size: 4rem; font-weight: 800; line-height: 1; margin-bottom: .25rem; color: var(--text); }
+.r-overall-score { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 4rem; font-weight: 800; line-height: 1; margin-bottom: .25rem; color: var(--text); }
 .r-score-label { font-size: .85rem; color: var(--muted); }
 .r-rag-summary { display: grid; grid-template-columns: repeat(3,1fr); gap: .75rem; margin-bottom: 1.5rem; }
 .r-rag-pill { border-radius: .75rem; padding: .75rem; text-align: center; }
 .r-rag-pill.green { background: var(--tint-green); border: 1px solid var(--border-green); }
 .r-rag-pill.amber { background: var(--tint-amber); border: 1px solid var(--border-amber); }
 .r-rag-pill.red   { background: var(--tint-red);   border: 1px solid var(--border-red);   }
-.r-rag-pill .r-rag-num { font-family: 'Syne', sans-serif; font-size: 1.6rem; font-weight: 800; }
+.r-rag-pill .r-rag-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.6rem; font-weight: 800; }
 .r-rag-pill.green .r-rag-num { color: var(--green); }
 .r-rag-pill.amber .r-rag-num { color: var(--amber); }
 .r-rag-pill.red   .r-rag-num { color: var(--red);   }
 .r-rag-pill .r-rag-txt { font-size: .7rem; color: var(--muted); margin-top: .2rem; }
 
 .r-breakdown-title {
-  font-family: 'Syne', sans-serif; font-size: .75rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .75rem; font-weight: 800;
   letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: .75rem;
 }
 .r-breakdown { display: flex; flex-direction: column; gap: .5rem; }
@@ -1341,13 +1342,13 @@ body {
   box-shadow: var(--shadow-s);
 }
 .countdown-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-.countdown-header h3 { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 800; color: var(--text); }
+.countdown-header h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.05rem; font-weight: 800; color: var(--text); }
 .countdown-header p { font-size: .82rem; color: var(--muted); margin-top: .25rem; }
 .countdown-tabs { display: flex; gap: .5rem; flex-shrink: 0; }
 .cd-tab {
   background: var(--card2); border: 1px solid var(--border-m);
   color: var(--muted); border-radius: 2rem; padding: .35rem .85rem;
-  font-size: .73rem; font-family: 'Syne', sans-serif; font-weight: 700;
+  font-size: .73rem; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;
   cursor: pointer; transition: all .15s; min-height: 36px;
 }
 .cd-tab:hover { color: var(--text); background: var(--card3); }
@@ -1444,7 +1445,7 @@ body {
 }
 .signup-panel .gate-icon { font-size: 2rem; display: block; margin-bottom: .75rem; }
 .signup-panel h2 {
-  font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.5rem; font-weight: 800;
   color: var(--text); margin-bottom: .5rem;
 }
 .signup-panel .signup-sub {
@@ -1474,7 +1475,7 @@ body {
   background: var(--teal); color: #fff;
   border: none; border-radius: .75rem;
   padding: .75rem 1.4rem;
-  font-family: 'Syne', sans-serif; font-size: .88rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .88rem; font-weight: 800;
   cursor: pointer; white-space: nowrap;
   transition: opacity .15s, transform .15s;
   min-height: 48px;
@@ -1486,7 +1487,7 @@ body {
 }
 .signup-success-icon { font-size: 2.5rem; display: block; margin-bottom: .75rem; }
 .signup-success h3 {
-  font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.3rem; font-weight: 800;
   color: var(--text); margin-bottom: .4rem;
 }
 .signup-success p { font-size: .88rem; color: var(--muted); }
@@ -1509,7 +1510,7 @@ body {
   text-align: center;
 }
 .footer-brand {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .85rem;
   font-weight: 800;
   color: var(--text);
@@ -1528,7 +1529,7 @@ body {
   margin-bottom: 1.5rem;
 }
 .footer-links a {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .73rem;
   font-weight: 700;
   letter-spacing: .06em;
@@ -1569,8 +1570,207 @@ body {
 .back-to-top.visible { opacity: 1; pointer-events: all; }
 .back-to-top:hover { background: var(--card3); transform: translateY(-2px); }
 
-</style>
+/* ── HERO CTAs ── */
+.hero-ctas {
+  display: flex; gap: 1rem; flex-wrap: wrap;
+  justify-content: center; margin-top: 2rem;
+  animation: fadeUp .6s .25s ease both;
+}
+.hero-cta-primary {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--vermillion); color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .88rem; font-weight: 700;
+  padding: .75rem 1.75rem; border-radius: 2rem; text-decoration: none;
+  transition: opacity .15s, transform .15s, box-shadow .15s;
+  box-shadow: 0 2px 10px rgba(214,56,0,.22);
+}
+.hero-cta-primary:hover { opacity: .9; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(214,56,0,.3); }
+.hero-cta-secondary {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--card); color: var(--text);
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .88rem; font-weight: 700;
+  padding: .75rem 1.75rem; border-radius: 2rem; text-decoration: none;
+  border: 1px solid var(--border-m);
+  transition: background .15s, transform .15s, box-shadow .15s;
+}
+.hero-cta-secondary:hover { background: var(--card2); transform: translateY(-2px); box-shadow: var(--shadow-s); }
 
+/* ── PRO BANNER ── */
+.pro-banner {
+  max-width: 860px; width: 100%; margin: 2rem 0 0;
+  background: var(--surface); border: 1px solid var(--border-teal);
+  border-radius: 1.25rem; padding: 2rem 2.5rem;
+  display: flex; gap: 1.5rem; align-items: flex-start;
+  box-shadow: var(--shadow-s);
+}
+.pro-banner-icon { flex-shrink: 0; margin-top: .2rem; }
+.pro-banner-content { flex: 1; }
+.pro-banner h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.1rem; font-weight: 800;
+  color: var(--text); margin-bottom: .4rem;
+}
+.pro-banner > div > p, .pro-banner-content > p { font-size: .85rem; color: var(--muted); line-height: 1.6; }
+.pro-banner-cta {
+  display: flex; gap: .5rem; margin-top: 1rem; flex-wrap: wrap;
+}
+.pro-banner-input {
+  flex: 1; min-width: 200px;
+  background: var(--card2); border: 1px solid var(--border-m);
+  color: var(--text); border-radius: .6rem;
+  padding: .6rem 1rem; font-size: .85rem; font-family: inherit;
+  outline: none; transition: border-color .2s;
+}
+.pro-banner-input:focus { border-color: var(--teal); }
+.pro-banner-btn {
+  background: var(--teal); color: #fff; border: none;
+  border-radius: .6rem; padding: .6rem 1.25rem;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .82rem; font-weight: 700;
+  cursor: pointer; white-space: nowrap;
+  transition: opacity .15s, transform .15s;
+}
+.pro-banner-btn:hover { opacity: .88; transform: translateY(-1px); }
+.pro-banner-privacy { font-size: .72rem !important; color: var(--muted) !important; margin-top: .5rem; }
+@media (max-width: 640px) {
+  .pro-banner { flex-direction: column; padding: 1.5rem; }
+}
+
+/* ── READINESS SECTION (standalone) ── */
+.readiness-section {
+  max-width: 1120px; width: 100%; margin: 0 auto;
+  padding: 3rem 2rem 4rem;
+  display: flex; flex-direction: column; align-items: center;
+}
+.section-heading {
+  text-align: center; margin-bottom: 1.5rem;
+}
+.section-heading h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.6rem; font-weight: 800;
+  color: var(--text); margin-bottom: .5rem;
+}
+.section-heading p {
+  font-size: .9rem; color: var(--muted); max-width: 560px; margin: 0 auto; line-height: 1.6;
+}
+
+/* ── LEARNING PATH ── */
+.learning-path {
+  max-width: 860px; width: 100%; margin: 0 auto;
+  padding: 2rem 2rem 0; text-align: center;
+}
+.learning-path h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.1rem; font-weight: 800;
+  color: var(--text); margin-bottom: 1.25rem;
+}
+.path-steps {
+  display: flex; align-items: center; justify-content: center;
+  gap: 0; flex-wrap: wrap;
+}
+.path-step {
+  display: flex; align-items: center; gap: .6rem;
+  background: var(--card); border: 1px solid var(--border-m);
+  border-radius: .75rem; padding: .6rem 1.1rem;
+  transition: border-color .2s, box-shadow .2s;
+  cursor: pointer;
+}
+.path-step:hover { border-color: var(--teal); box-shadow: var(--shadow-s); }
+.path-num {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: var(--teal); color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: .78rem; font-weight: 800;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.path-label {
+  font-size: .82rem; font-weight: 600; color: var(--text); white-space: nowrap;
+}
+.path-arrow {
+  width: 32px; height: 2px; background: var(--border-m); flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  .path-steps { flex-direction: column; gap: .5rem; }
+  .path-arrow { width: 2px; height: 20px; }
+}
+
+/* ── READING TIME ── */
+.read-time {
+  font-size: .75rem; color: var(--muted);
+  display: flex; align-items: center; gap: .3rem;
+}
+
+/* ── COMPLETION TRACKER ── */
+.completion-tracker {
+  max-width: 1120px; width: 100%; text-align: right;
+  font-size: .78rem; color: var(--muted); margin-bottom: .5rem;
+  padding: 0 .25rem;
+}
+.module-card.completed { border-color: var(--border-green); }
+.module-card.completed::after {
+  content: ''; position: absolute; top: 0; right: 0;
+  border-left: 24px solid transparent; border-top: 24px solid var(--green);
+  border-radius: 0 1.25rem 0 0;
+}
+.completion-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  color: var(--green); margin-left: auto;
+}
+.completion-badge svg { width: 18px; height: 18px; }
+
+/* ── ABOUT SECTION ── */
+.about-section {
+  max-width: 860px; width: 100%; margin: 0 auto;
+  padding: 3rem 2rem; text-align: center;
+}
+.about-section h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.4rem; font-weight: 800;
+  color: var(--text); margin-bottom: 1rem;
+}
+.about-content {
+  text-align: left; max-width: 680px; margin: 0 auto;
+  font-size: .9rem; color: var(--text-2); line-height: 1.75;
+}
+.about-content p { margin-bottom: .75rem; }
+.about-content strong { color: var(--text); font-weight: 600; }
+
+/* ── TRUST SIGNALS ── */
+.trust-section {
+  max-width: 1120px; width: 100%; margin: 0 auto;
+  padding: 2rem 2rem 3rem; text-align: center;
+}
+.trust-section h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.1rem; font-weight: 800;
+  letter-spacing: .04em; text-transform: uppercase; color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+.trust-stats {
+  display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.trust-stat {
+  display: flex; flex-direction: column; align-items: center; gap: .3rem;
+}
+.trust-num {
+  font-family: 'Plus Jakarta Sans', sans-serif; font-size: 2.4rem; font-weight: 800;
+  color: var(--teal); line-height: 1;
+}
+.trust-label { font-size: .8rem; color: var(--muted); max-width: 200px; line-height: 1.4; }
+.trust-note { font-size: .78rem; color: var(--muted); margin-top: 1rem; }
+
+/* ── TAB NAVIGATION ── */
+.tab-nav {
+  display: flex; justify-content: center; gap: .5rem;
+  max-width: 1120px; width: 100%; margin: 0 0 .5rem;
+  flex-wrap: wrap;
+}
+.tab-btn {
+  background: var(--card2); border: 1px solid var(--border-m);
+  color: var(--muted); border-radius: 2rem;
+  padding: .4rem 1.1rem; font-size: .78rem;
+  font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;
+  cursor: pointer; transition: all .15s; white-space: nowrap;
+}
+.tab-btn:hover { color: var(--text); background: var(--card3); }
+.tab-btn.active { background: var(--tint-teal); border-color: var(--border-teal); color: var(--teal); }
+
+</style>
+<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -1588,13 +1788,13 @@ body {
     <li><a href="#wcag-content">Accessibility</a></li>
   </ul>
   <div class="nav-actions">
-    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false"><i data-lucide="menu" style="width:20px;height:20px"></i></button>
     <button class="theme-toggle" id="themeToggle" aria-label="Switch to light mode" aria-pressed="false">
-      <span class="icon-dark" aria-hidden="true">☀️</span>
-      <span class="icon-light" aria-hidden="true">🌙</span>
+      <span class="icon-dark" aria-hidden="true"><i data-lucide="sun" style="width:18px;height:18px"></i></span>
+      <span class="icon-light" aria-hidden="true"><i data-lucide="moon" style="width:18px;height:18px"></i></span>
     </button>
     <button class="nav-pro-btn" onclick="openSignupModal()" aria-haspopup="dialog">
-      Unlock Pro ⭐
+      Unlock Pro <i data-lucide="star" style="width:14px;height:14px;display:inline-block;vertical-align:-2px"></i>
     </button>
   </div>
 </nav>
@@ -1602,7 +1802,7 @@ body {
 <!-- ── MOBILE MENU ── -->
 <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
 <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation">
-  <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">&times;</button>
+  <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu"><i data-lucide="x" style="width:20px;height:20px"></i></button>
   <a href="#main-content" class="mobile-menu-link">Learn</a>
   <a href="#tools-content" class="mobile-menu-link">Tools</a>
   <a href="#p3m-content" class="mobile-menu-link">P3M</a>
@@ -1613,221 +1813,106 @@ body {
 <section class="hero" id="main-content" aria-label="Service Assessment Ready learning platform">
 
   <div class="pro-status-bar" id="proStatusBar" role="status" aria-live="polite" style="display:none">
-    <span aria-hidden="true">⭐</span>
+    <span aria-hidden="true"><i data-lucide="star" style="width:16px;height:16px"></i></span>
     <span><strong>Pro</strong> — all Pro modules unlocked</span>
     <button class="pro-signout" onclick="signOutPro()">Sign out</button>
   </div>
 
-  <h1>
-    <em class="a1">Learn.</em><br>
-    <em class="a2">Evidence.</em><br>
-    <em class="a3">Pass</em> your<br>
-    <em class="a4">Assessment.</em>
-  </h1>
-  <p class="hero-sub">For civil servants, contractors and delivery teams across UK government — structured learning to help you evidence, prepare and pass your service assessment.</p>
-  <div class="hero-tags" aria-label="Platform topics">
-    <span class="hero-tag">GOV.UK Service Standard</span>
-    <span class="hero-tag">Alpha · Beta · Live</span>
-    <span class="hero-tag">GDD roles</span>
-    <span class="hero-tag">P3M · PRINCE2 · MSP</span>
-    <span class="hero-tag">WCAG 2.2</span>
-    <span class="hero-tag">GovS 002</span>
-  </div>
-
-  <!-- ── LEAD FEATURES: Readiness + Why Fail ── -->
-  <div class="lead-features" role="region" aria-label="Featured tools">
-
-    <!-- ARE YOU READY? -->
-    <div class="lead-card lc-ready" id="readiness-lead">
-      <div class="lead-card-eyebrow" aria-hidden="true">⚡ Free interactive tool</div>
-      <h2>Are you ready to be assessed?</h2>
-      <p>Answer 14 questions — one per Service Standard point — and get an instant RAG dashboard. Takes under 3 minutes. No sign-up needed.</p>
-      <div class="lead-card-stat" aria-label="14 standard points covered">
-        <span class="lcs-num" aria-hidden="true">14</span>
-        <span class="lcs-label">standard points assessed in one session</span>
-      </div>
-
-      <div class="readiness-tool" id="readinessTool">
-        <!-- Intro screen -->
-        <div class="readiness-intro" id="r-intro">
-          <button class="readiness-start-btn" onclick="rStart()" aria-describedby="r-intro-desc">Start the assessment →</button>
-          <p id="r-intro-desc" style="font-size:.78rem;color:var(--muted);margin-top:.6rem">14 questions · instant RAG result · no sign-up</p>
-        </div>
-        <!-- Questions -->
-        <div class="readiness-question" id="r-questions" style="display:none" role="form" aria-label="Assessment readiness questionnaire">
-          <div class="r-progress-bar" role="progressbar" id="r-prog-wrap" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Question progress">
-            <div class="r-progress-fill" id="r-prog"></div>
-          </div>
-          <div class="r-point-label" id="r-point-lbl" aria-live="polite"></div>
-          <div class="r-question-text" id="r-q-text" role="heading" aria-level="3"></div>
-          <div class="r-options" id="r-opts" role="radiogroup" aria-label="Choose your answer"></div>
-          <div class="r-nav">
-            <button class="r-nav-btn" id="r-back" onclick="rBack()">← Back</button>
-            <span class="r-counter" id="r-counter" aria-live="polite"></span>
-            <button class="r-nav-btn" id="r-next" onclick="rNext()">Next →</button>
-          </div>
-        </div>
-        <!-- Results -->
-        <div class="readiness-results" id="r-results" style="display:none" role="region" aria-label="Readiness assessment results" aria-live="polite">
-          <div class="r-score-header">
-            <div class="r-overall-score" id="r-score-pct" aria-label="Overall readiness score"></div>
-            <div class="r-score-label" id="r-score-verdict"></div>
-          </div>
-          <div class="r-rag-summary" role="list" aria-label="RAG breakdown">
-            <div class="r-rag-pill green" role="listitem"><div class="r-rag-num" id="r-g-count">0</div><div class="r-rag-txt">Green — strong</div></div>
-            <div class="r-rag-pill amber" role="listitem"><div class="r-rag-num" id="r-a-count">0</div><div class="r-rag-txt">Amber — at risk</div></div>
-            <div class="r-rag-pill red"   role="listitem"><div class="r-rag-num" id="r-r-count">0</div><div class="r-rag-txt">Red — address now</div></div>
-          </div>
-          <div class="r-breakdown-title" aria-hidden="true">Breakdown by standard point</div>
-          <div class="r-breakdown" id="r-breakdown" role="list" aria-label="Standard point breakdown"></div>
-          <div class="r-cta-box">
-            <p>Pro modules include evidence checklists, case studies, and model answers for every red and amber area.</p>
-            <button class="readiness-start-btn" onclick="openSignupModal()" aria-haspopup="dialog">Unlock Pro modules →</button>
-            <br><button class="r-restart-btn" onclick="rRestart()">Retake the assessment</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- WHY SERVICES FAIL -->
-    <div class="lead-card lc-fail" id="whyfail-lead">
-      <div class="lead-card-eyebrow" aria-hidden="true">📊 Free module</div>
-      <h2>Why services fail their assessment</h2>
-      <p>Data-driven patterns from published GOV.UK assessment reports. The four failure modes that cause most Red ratings — and exactly how to avoid them.</p>
-      <div class="lead-card-stat" aria-label="17.8 percent of assessments fail">
-        <span class="lcs-num" aria-hidden="true">17.8%</span>
-        <span class="lcs-label">of all published GOV.UK service assessments result in a Red rating</span>
-      </div>
-      <a href="#" class="lead-card-cta" onclick="openFree('whyfail');return false;" aria-label="Start Why Services Fail module — 8 slides">
-        Start the module → <span style="font-size:.75rem;color:var(--muted)">8 slides</span>
-      </a>
-    </div>
-
+  <h1><em class="a1">Pass your service assessment</em></h1>
+  <p class="hero-sub">Free structured learning for civil servants, contractors and delivery teams preparing for GOV.UK service assessments.</p>
+  <div class="hero-ctas">
+    <a href="#readiness-section" class="hero-cta-primary"><i data-lucide="zap" style="width:16px;height:16px;display:inline-block;vertical-align:-3px"></i> Check your readiness</a>
+    <a href="#modules-section" class="hero-cta-secondary"><i data-lucide="book-open" style="width:16px;height:16px;display:inline-block;vertical-align:-3px"></i> Browse modules</a>
   </div>
 
   <!-- ── FREE LEARNING MODULES ── -->
-  <div class="section-divider" role="separator">
+  <div class="section-divider" id="modules-section" role="separator">
     <div class="section-divider-line"></div>
     <div class="section-divider-label">Free learning modules</div>
     <div class="section-divider-line"></div>
   </div>
+  <!-- ── LEARNING PATH ── -->
+  <div class="learning-path" aria-label="Suggested learning path">
+    <h2>Suggested learning path</h2>
+    <div class="path-steps">
+      <a class="path-step" href="#" onclick="openFree('sp14');return false"><span class="path-num">1</span><span class="path-label">The 14 Points</span></a>
+      <div class="path-arrow" aria-hidden="true"></div>
+      <a class="path-step" href="#" onclick="openFree('assessment');return false"><span class="path-num">2</span><span class="path-label">Assessment Process</span></a>
+      <div class="path-arrow" aria-hidden="true"></div>
+      <a class="path-step" href="#" onclick="openFree('phases');return false"><span class="path-num">3</span><span class="path-label">Service Phases</span></a>
+      <div class="path-arrow" aria-hidden="true"></div>
+      <a class="path-step" href="#" onclick="openFree('research');return false"><span class="path-num">4</span><span class="path-label">Research &amp; Design</span></a>
+    </div>
+  </div>
+
+  <div class="completion-tracker"><span id="completion-progress"></span></div>
+
+  <!-- ── TAB FILTERS ── -->
+  <div class="tab-nav" role="tablist" aria-label="Module categories">
+    <button class="tab-btn active" data-tab="all" role="tab" aria-selected="true" onclick="filterTab('all',this)">All Modules</button>
+    <button class="tab-btn" data-tab="standard" role="tab" aria-selected="false" onclick="filterTab('standard',this)">Service Standard</button>
+    <button class="tab-btn" data-tab="p3m" role="tab" aria-selected="false" onclick="filterTab('p3m',this)">P3M</button>
+    <button class="tab-btn" data-tab="accessibility" role="tab" aria-selected="false" onclick="filterTab('accessibility',this)">Accessibility</button>
+  </div>
 
   <div class="modules" role="list" aria-label="Free learning modules">
-    <a class="module-card m1" onclick="openFree('sp14');return false" href="#" role="listitem" aria-label="The 14 Service Standard Points — 16 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">🎯</div><span class="free-tag">FREE</span></div>
+    <a class="module-card m1" data-category="standard" onclick="openFree('sp14');return false" href="#" role="listitem" aria-label="The 14 Service Standard Points — 16 slides">
+      <div class="card-top"><div class="module-icon" aria-hidden="true"><i data-lucide="target"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">Foundation</div>
       <h3 class="module-title">The 14 Service Standard Points</h3>
       <p class="module-desc">What each point means in practice, what assessors look for, and how to evidence them. The essential starting point.</p>
-      <div class="module-meta"><span class="slide-count">16 slides</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">16 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 32m</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
     </a>
-    <a class="module-card m2" onclick="openFree('assessment');return false" href="#" role="listitem" aria-label="How to Pass a Service Assessment — 14 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">✅</div><span class="free-tag">FREE</span></div>
+    <a class="module-card m2" data-category="standard" onclick="openFree('assessment');return false" href="#" role="listitem" aria-label="How to Pass a Service Assessment — 14 slides">
+      <div class="card-top"><div class="module-icon" aria-hidden="true"><i data-lucide="check-circle"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">Assessment process</div>
       <h3 class="module-title">How a Service Assessment Works</h3>
       <p class="module-desc">The panel, the format, what to show and tell, and how RAG ratings are decided. Know the room before you walk in.</p>
-      <div class="module-meta"><span class="slide-count">14 slides</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">14 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 28m</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
     </a>
-    <a class="module-card m3" onclick="openFree('phases');return false" href="#" role="listitem" aria-label="Discovery, Alpha, Beta and Live — 14 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">🚀</div><span class="free-tag">FREE</span></div>
+    <a class="module-card m3" data-category="standard" onclick="openFree('phases');return false" href="#" role="listitem" aria-label="Discovery, Alpha, Beta and Live — 14 slides">
+      <div class="card-top"><div class="module-icon" aria-hidden="true"><i data-lucide="rocket"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">Service phases</div>
       <h3 class="module-title">Discovery · Alpha · Beta · Live</h3>
       <p class="module-desc">What to do in each phase, what to produce, and what assessors are judging at each gate.</p>
-      <div class="module-meta"><span class="slide-count">14 slides</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">14 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 28m</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
     </a>
-    <a class="module-card m4" onclick="openFree('research');return false" href="#" role="listitem" aria-label="User Research and Design Practices — 14 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">🔬</div><span class="free-tag">FREE</span></div>
+    <a class="module-card m4" data-category="standard" onclick="openFree('research');return false" href="#" role="listitem" aria-label="User Research and Design Practices — 14 slides">
+      <div class="card-top"><div class="module-icon" aria-hidden="true"><i data-lucide="microscope"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">Research &amp; design</div>
       <h3 class="module-title">User Research &amp; Design in Assessments</h3>
       <p class="module-desc">Research methods, ethics, synthesis, inclusive design — the concepts assessors test most heavily in practice.</p>
-      <div class="module-meta"><span class="slide-count">14 slides</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">14 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 28m</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
     </a>
-    <a class="module-card roles1" onclick="openFree('roles');return false" href="#" role="listitem" aria-label="Roles Explained — GDD and the Standard — 7 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">👥</div><span class="free-tag">FREE</span></div>
+    <a class="module-card roles1" data-category="standard" onclick="openFree('roles');return false" href="#" role="listitem" aria-label="Roles Explained — GDD and the Standard — 7 slides">
+      <div class="card-top"><div class="module-icon" aria-hidden="true"><i data-lucide="users"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">GDD roles</div>
       <h3 class="module-title">GDD Roles &amp; the Service Standard</h3>
       <p class="module-desc">Each major GDD role mapped to the Standard points they own — and the question they're most likely to be asked on assessment day.</p>
-      <div class="module-meta"><span class="slide-count">7 slides</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">7 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 14m</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
     </a>
-    <a class="module-card govs1" onclick="openFree('govs002');return false" href="#" role="listitem" aria-label="GovS 002 in Plain English — 7 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">📋</div><span class="free-tag">FREE</span></div>
+    <a class="module-card govs1" data-category="standard" onclick="openFree('govs002');return false" href="#" role="listitem" aria-label="GovS 002 in Plain English — 7 slides">
+      <div class="card-top"><div class="module-icon" aria-hidden="true"><i data-lucide="clipboard-list"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">Governance</div>
       <h3 class="module-title">GovS 002 in Plain English</h3>
       <p class="module-desc">The mandatory Government Functional Standard — what "shall" vs "should" means, the five governance areas, and where it intersects with service assessments.</p>
-      <div class="module-meta"><span class="slide-count">7 slides</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">7 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 14m</span><span class="start-arrow" aria-hidden="true">Start learning →</span></div>
     </a>
   </div>
 
-  <!-- ── PRO MODULES ── -->
-  <div class="section-divider" role="separator">
-    <div class="section-divider-line"></div>
-    <div class="section-divider-label">Pro modules — coming soon</div>
-    <div class="section-divider-line"></div>
-  </div>
-
-  <div class="modules" role="list" aria-label="Pro modules — evidence checklists and role tracks">
-    <a class="module-card m1 locked" onclick="openPro('sp14')" href="#" role="listitem" aria-label="Evidence Checklists for All 14 Points — Pro module — 15 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">🎯</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">Evidence checklists</div>
-      <h3 class="module-title">14 Points: Evidence Checklists &amp; RAG</h3>
-      <p class="module-desc">Detailed evidence checklists per standard point with Green/Amber/Red examples from real assessments — showing exactly what passes and what fails.</p>
-      <div class="module-meta"><span class="slide-count">15 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
-    <a class="module-card wg1 locked" onclick="openPro('whatgood')" href="#" role="listitem" aria-label="What Does Good Look Like — Pro module — 9 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">✅</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">What good looks like</div>
-      <h3 class="module-title">What Good Evidence Looks Like</h3>
-      <p class="module-desc">Concrete examples of passing evidence for the five most-failed standard points. See the standard before you walk in.</p>
-      <div class="module-meta"><span class="slide-count">9 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
-    <a class="module-card m2 locked" onclick="openPro('assessment')" href="#" role="listitem" aria-label="Assessment Case Studies — Pro module — 15 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">📂</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">Case studies</div>
-      <h3 class="module-title">Assessment Case Studies: Pass &amp; Fail</h3>
-      <p class="module-desc">Real published assessment outcomes — what teams evidenced well, what caused Red ratings, and how services recovered from failure.</p>
-      <div class="module-meta"><span class="slide-count">15 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
-    <a class="module-card m3 locked" onclick="openPro('phases')" href="#" role="listitem" aria-label="Phase Checklists and Failure Patterns — Pro module — 15 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">🚀</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">Phase-by-phase prep</div>
-      <h3 class="module-title">Phase Checklists &amp; Failure Patterns</h3>
-      <p class="module-desc">Detailed pre-assessment checklists for Alpha, Beta, and Live — with the most common failure patterns at each gate.</p>
-      <div class="module-meta"><span class="slide-count">15 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
-    <a class="module-card m4 locked" onclick="openPro('research')" href="#" role="listitem" aria-label="Research and Design Assessor Questions — Pro module — 14 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">🔬</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">Assessor Q&amp;A bank</div>
-      <h3 class="module-title">Research &amp; Design: Assessor Questions</h3>
-      <p class="module-desc">The hardest assessor questions for user research and design disciplines, with model answers and the evidence needed to back them up.</p>
-      <div class="module-meta"><span class="slide-count">14 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
-    <a class="module-card m11 locked" onclick="openPro('sro')" href="#" role="listitem" aria-label="The SRO Guide to Service Assessment — Pro module — 10 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">🎖️</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">Role track · SRO</div>
-      <h3 class="module-title">The SRO's Guide to Assessment Day</h3>
-      <p class="module-desc">What the Senior Responsible Owner personally needs to know, own, and be able to answer — not what the delivery team needs to do.</p>
-      <div class="module-meta"><span class="slide-count">10 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
-    <a class="module-card m12 locked" onclick="openPro('techlead')" href="#" role="listitem" aria-label="Tech Lead and Architect Assessment Deep Dive — Pro module — 10 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">⚙️</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">Role track · Tech Lead</div>
-      <h3 class="module-title">Tech Lead &amp; Architect: Assessment Prep</h3>
-      <p class="module-desc">ADRs, open standards evidence, pen testing, TCoP alignment — and the exact questions the technology assessor will ask.</p>
-      <div class="module-meta"><span class="slide-count">10 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
-    <a class="module-card m13 locked" onclick="openPro('newur')" href="#" role="listitem" aria-label="New User Researcher Joining Mid-Beta — Pro module — 10 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">🔭</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">Role track · User Researcher</div>
-      <h3 class="module-title">Joining a Team Mid-Beta: UR Guide</h3>
-      <p class="module-desc">For researchers inheriting a project with an assessment already scheduled — first 30 days, gap analysis, and what to run before the day.</p>
-      <div class="module-meta"><span class="slide-count">10 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
-    <a class="module-card m5 locked" onclick="openPro('procurement')" href="#" role="listitem" aria-label="Procurement and IR35 — Pro module — 12 slides">
-      <div class="card-top"><div class="module-icon" aria-hidden="true">📄</div><span class="coming-soon-tag">Coming soon</span></div>
-      <div class="module-label">Contractors &amp; procurement</div>
-      <h3 class="module-title">Procurement, G-Cloud &amp; IR35</h3>
-      <p class="module-desc">G-Cloud, SOWs, day rates, IR35 status — how to compliantly staff and procure a government digital team as a contractor or civil servant.</p>
-      <div class="module-meta"><span class="slide-count">12 slides</span><span class="start-arrow" aria-hidden="true">Deep dive →</span></div>
-    </a>
+  <!-- ── PRO BANNER ── -->
+  <div class="pro-banner" id="pro-banner">
+    <div class="pro-banner-icon"><i data-lucide="sparkles" style="width:32px;height:32px;color:var(--teal)"></i></div>
+    <div class="pro-banner-content">
+      <h3>Pro modules are coming</h3>
+      <p>Evidence checklists, assessor Q&amp;A banks, case studies, and role tracks — for every GDD discipline and service phase.</p>
+      <div class="pro-banner-cta">
+        <label for="proBannerEmail" class="visually-hidden">Email address</label>
+        <input type="email" id="proBannerEmail" placeholder="Your work email" class="pro-banner-input" autocomplete="email">
+        <button onclick="submitBannerSignup()" class="pro-banner-btn">Notify me</button>
+      </div>
+      <p class="pro-banner-privacy">No spam. One email when Pro launches. We never share your data.</p>
+    </div>
   </div>
 
 </section>
@@ -1839,35 +1924,35 @@ body {
   <div class="modules" role="list">
 
     <a class="module-card p3m1" onclick="openFree('prince2');return false" href="#" role="listitem">
-      <div class="card-top"><div class="module-icon">🏗️</div><span class="free-tag">FREE</span></div>
+      <div class="card-top"><div class="module-icon"><i data-lucide="building-2"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">PRINCE2 7th Edition</div>
       <h3>PRINCE2 7th Edition — Foundation &amp; Practitioner</h3>
       <p>7 Principles, 7 Practices, 7 Processes. People dimension, product-based planning, GovS 002 alignment.</p>
-      <div class="module-meta"><span class="slide-count">10 slides</span><span class="start-arrow">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">10 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 20m</span><span class="start-arrow">Start learning →</span></div>
     </a>
 
     <a class="module-card p3m2" onclick="openFree('prince2agile');return false" href="#" role="listitem">
-      <div class="card-top"><div class="module-icon">⚡</div><span class="free-tag">FREE</span></div>
+      <div class="card-top"><div class="module-icon"><i data-lucide="zap"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">PRINCE2 Agile</div>
       <h3>PRINCE2 Agile — Structure meets flexibility</h3>
       <p>Fix time and cost, flex scope. Scrum, Kanban, MoSCoW. The Agilometer. Hybrid government delivery.</p>
-      <div class="module-meta"><span class="slide-count">10 slides</span><span class="start-arrow">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">10 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 20m</span><span class="start-arrow">Start learning →</span></div>
     </a>
 
     <a class="module-card p3m3" onclick="openFree('msp');return false" href="#" role="listitem">
-      <div class="card-top"><div class="module-icon">🗺️</div><span class="free-tag">FREE</span></div>
+      <div class="card-top"><div class="module-icon"><i data-lucide="map"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">MSP 5th Edition</div>
       <h3>Managing Successful Programmes — 5th Edition</h3>
       <p>7 Principles, 7 Themes, Programme Lifecycle. Benefits management, blueprint design, enterprise agility.</p>
-      <div class="module-meta"><span class="slide-count">10 slides</span><span class="start-arrow">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">10 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 20m</span><span class="start-arrow">Start learning →</span></div>
     </a>
 
     <a class="module-card p3m4" onclick="openFree('mop');return false" href="#" role="listitem">
-      <div class="card-top"><div class="module-icon">📊</div><span class="free-tag">FREE</span></div>
+      <div class="card-top"><div class="module-icon"><i data-lucide="bar-chart-3"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">MoP — Management of Portfolios</div>
       <h3>Management of Portfolios — Foundation &amp; Practitioner</h3>
       <p>5 Principles, 12 Practices, Definition &amp; Delivery Cycles. GMPP, IPA, GovS 002. ROI maximisation.</p>
-      <div class="module-meta"><span class="slide-count">10 slides</span><span class="start-arrow">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">10 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 20m</span><span class="start-arrow">Start learning →</span></div>
     </a>
 
   </div>
@@ -1876,18 +1961,65 @@ body {
 
 <!-- ── WCAG SECTION ── -->
 <section class="hero" id="wcag-content" aria-label="WCAG 2.2 accessibility training">
-  <div class="section-label label-wcag"><span>♿ WCAG 2.2 — Accessibility compliance for government services</span></div>
+  <div class="section-label label-wcag"><span><i data-lucide="accessibility" style="width:16px;height:16px;display:inline-block;vertical-align:-3px"></i> WCAG 2.2 — Accessibility compliance for government services</span></div>
   <h2 class="visually-hidden">WCAG 2.2 accessibility training modules</h2>
   <div class="modules" role="list">
 
     <a class="module-card wcag1" onclick="openFree('wcag22');return false" href="#" role="listitem">
-      <div class="card-top"><div class="module-icon">♿</div><span class="free-tag">FREE</span></div>
+      <div class="card-top"><div class="module-icon"><i data-lucide="accessibility"></i></div><span class="free-tag">FREE</span></div>
       <div class="module-label">WCAG 2.2 Accessibility</div>
       <h3>WCAG 2.2 — Compliance, testing and embedding accessibility</h3>
       <p>Legal requirements, POUR principles, new 2.2 criteria, three-layer testing, assistive technology, accessibility statements and sustained compliance.</p>
-      <div class="module-meta"><span class="slide-count">12 slides</span><span class="start-arrow">Start learning →</span></div>
+      <div class="module-meta"><span class="slide-count">12 slides</span><span class="read-time"><i data-lucide="clock" style="width:12px;height:12px"></i> 24m</span><span class="start-arrow">Start learning →</span></div>
     </a>
 
+  </div>
+</section>
+
+<!-- ── READINESS TOOL (standalone) ── -->
+<section class="readiness-section" id="readiness-section" aria-label="Assessment readiness checker">
+  <div class="section-heading">
+    <h2>Check your assessment readiness</h2>
+    <p>Answer 14 questions — one per Service Standard point — and get an instant RAG dashboard. Takes under 3 minutes. No sign-up needed.</p>
+  </div>
+  <div class="readiness-tool" id="readinessTool">
+    <!-- Intro screen -->
+    <div class="readiness-intro" id="r-intro">
+      <button class="readiness-start-btn" onclick="rStart()" aria-describedby="r-intro-desc">Start the assessment →</button>
+      <p id="r-intro-desc" style="font-size:.78rem;color:var(--muted);margin-top:.6rem">14 questions · instant RAG result · no sign-up</p>
+    </div>
+    <!-- Questions -->
+    <div class="readiness-question" id="r-questions" style="display:none" role="form" aria-label="Assessment readiness questionnaire">
+      <div class="r-progress-bar" role="progressbar" id="r-prog-wrap" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Question progress">
+        <div class="r-progress-fill" id="r-prog"></div>
+      </div>
+      <div class="r-point-label" id="r-point-lbl" aria-live="polite"></div>
+      <div class="r-question-text" id="r-q-text" role="heading" aria-level="3"></div>
+      <div class="r-options" id="r-opts" role="radiogroup" aria-label="Choose your answer"></div>
+      <div class="r-nav">
+        <button class="r-nav-btn" id="r-back" onclick="rBack()">← Back</button>
+        <span class="r-counter" id="r-counter" aria-live="polite"></span>
+        <button class="r-nav-btn" id="r-next" onclick="rNext()">Next →</button>
+      </div>
+    </div>
+    <!-- Results -->
+    <div class="readiness-results" id="r-results" style="display:none" role="region" aria-label="Readiness assessment results" aria-live="polite">
+      <div class="r-score-header">
+        <div class="r-overall-score" id="r-score-pct" aria-label="Overall readiness score"></div>
+        <div class="r-score-label" id="r-score-verdict"></div>
+      </div>
+      <div class="r-rag-summary" role="list" aria-label="RAG breakdown">
+        <div class="r-rag-pill green" role="listitem"><div class="r-rag-num" id="r-g-count">0</div><div class="r-rag-txt">Green — strong</div></div>
+        <div class="r-rag-pill amber" role="listitem"><div class="r-rag-num" id="r-a-count">0</div><div class="r-rag-txt">Amber — at risk</div></div>
+        <div class="r-rag-pill red"   role="listitem"><div class="r-rag-num" id="r-r-count">0</div><div class="r-rag-txt">Red — address now</div></div>
+      </div>
+      <div class="r-breakdown-title" aria-hidden="true">Breakdown by standard point</div>
+      <div class="r-breakdown" id="r-breakdown" role="list" aria-label="Standard point breakdown"></div>
+      <div class="r-cta-box">
+        <p>Pro modules will include evidence checklists, case studies, and model answers for every red and amber area.</p>
+        <button class="r-restart-btn" onclick="rRestart()">Retake the assessment</button>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -1902,7 +2034,7 @@ body {
   <!-- Countdown Checklist -->
   <div class="module-card tool2" style="max-width:860px;width:100%;cursor:default;border-color:var(--border-m);" role="region" aria-labelledby="countdown-title">
     <div class="card-top">
-      <div class="module-icon" aria-hidden="true">📅</div>
+      <div class="module-icon" aria-hidden="true"><i data-lucide="calendar-check"></i></div>
       <span class="free-tag">FREE TOOL</span>
     </div>
     <h3 class="module-title" id="countdown-title">Before Your Assessment: Countdown Checklist</h3>
@@ -1910,7 +2042,7 @@ body {
     <div class="countdown-tool">
       <div class="countdown-header">
         <div>
-          <h4 style="font-family:'Syne',sans-serif;font-size:1rem;font-weight:800;margin-bottom:.25rem">Assessment countdown</h4>
+          <h4 style="font-family:'Plus Jakarta Sans',sans-serif;font-size:1rem;font-weight:800;margin-bottom:.25rem">Assessment countdown</h4>
           <p style="font-size:.82rem;color:var(--muted)">Click any item to mark it done.</p>
         </div>
         <div class="countdown-tabs" role="tablist" aria-label="Countdown timeframes">
@@ -1943,18 +2075,18 @@ body {
 <!-- ── SIGN-UP CAPTURE MODAL ── -->
 <div class="gate-overlay" id="gateOverlay" role="dialog" aria-modal="true" aria-labelledby="signupTitle" aria-describedby="signupDesc">
   <div class="gate-modal">
-    <button class="gate-close" onclick="closeGate()" aria-label="Close">✕</button>
+    <button class="gate-close" onclick="closeGate()" aria-label="Close"><i data-lucide="x" style="width:18px;height:18px"></i></button>
     <!-- Sign-up form panel -->
     <div class="signup-panel" id="signupPanel">
-      <span class="gate-icon" aria-hidden="true">🚀</span>
+      <span class="gate-icon" aria-hidden="true"><i data-lucide="rocket" style="width:40px;height:40px"></i></span>
       <h2 id="signupTitle">Pro modules are coming</h2>
       <p class="signup-sub" id="signupDesc">Be the first to know when Pro launches — evidence checklists, assessor Q&amp;A banks, case studies, and role tracks for every GDD discipline.</p>
       <div class="signup-features" aria-label="What you will get with Pro">
-        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true">✓</span> Evidence checklists for all 14 Standard points</div>
-        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true">✓</span> Assessor Q&amp;A banks with model answers</div>
-        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true">✓</span> Role tracks: SRO, Tech Lead, User Researcher</div>
-        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true">✓</span> Assessment case studies — pass &amp; fail analysis</div>
-        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true">✓</span> Phase checklists: Alpha, Beta &amp; Live</div>
+        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true"><i data-lucide="check" style="width:16px;height:16px"></i></span> Evidence checklists for all 14 Standard points</div>
+        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true"><i data-lucide="check" style="width:16px;height:16px"></i></span> Assessor Q&amp;A banks with model answers</div>
+        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true"><i data-lucide="check" style="width:16px;height:16px"></i></span> Role tracks: SRO, Tech Lead, User Researcher</div>
+        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true"><i data-lucide="check" style="width:16px;height:16px"></i></span> Assessment case studies — pass &amp; fail analysis</div>
+        <div class="signup-feature"><span class="signup-feature-icon" aria-hidden="true"><i data-lucide="check" style="width:16px;height:16px"></i></span> Phase checklists: Alpha, Beta &amp; Live</div>
       </div>
       <div class="signup-input-row">
         <label for="signupEmail" class="visually-hidden">Your email address</label>
@@ -1970,7 +2102,7 @@ body {
     </div>
     <!-- Success panel -->
     <div class="signup-success" id="signupSuccess" role="status" aria-live="polite">
-      <span class="signup-success-icon" aria-hidden="true">✅</span>
+      <span class="signup-success-icon" aria-hidden="true"><i data-lucide="check-circle" style="width:40px;height:40px;color:var(--green)"></i></span>
       <h3>You're on the list</h3>
       <p>We'll email you as soon as Pro launches. In the meantime, all free modules and tools are open — no sign-up needed.</p>
     </div>
@@ -1980,7 +2112,7 @@ body {
 <!-- ── PLAYER ── -->
 <div class="player" id="player" role="dialog" aria-modal="true" aria-label="Module player">
   <div class="player-header">
-    <button class="close-btn" onclick="closePlayer()" aria-label="Close module player">✕</button>
+    <button class="close-btn" onclick="closePlayer()" aria-label="Close module player"><i data-lucide="x" style="width:18px;height:18px"></i></button>
     <div class="player-title" id="playerTitle"></div>
     <div class="progress-wrap" role="progressbar" aria-label="Module progress" aria-valuemin="0" aria-valuemax="100" id="progressBar">
       <div class="progress-fill" id="progressFill" style="width:0%"></div>
@@ -1997,7 +2129,38 @@ body {
   </div>
 </div>
 
-<button class="back-to-top" id="backToTop" aria-label="Back to top" onclick="window.scrollTo({top:0})">&#8593;</button>
+<!-- ── ABOUT SECTION ── -->
+<section class="about-section" aria-labelledby="about-heading">
+  <h2 id="about-heading">About Service Assessment Ready</h2>
+  <div class="about-content">
+    <p><strong>Service Assessment Ready</strong> is a free learning platform built for civil servants, contractors and delivery teams preparing for GOV.UK service assessments across UK government.</p>
+    <p>All content is based on <strong>published GOV.UK service assessment reports</strong> and the official Service Manual guidance. The failure patterns, evidence checklists, and readiness questions reflect real assessment outcomes — not theory.</p>
+    <p>The platform covers the <strong>14 Service Standard points</strong>, the assessment process at Alpha, Beta and Live phases, GDD roles, P3M frameworks (PRINCE2, MSP, MoP), WCAG 2.2 accessibility compliance, and GovS 002 governance.</p>
+    <p>This platform itself is built to <strong>WCAG 2.2 AA compliance</strong> — skip links, focus management, keyboard navigation, screen reader support, reduced motion, and minimum touch targets throughout.</p>
+  </div>
+</section>
+
+<!-- ── TRUST SIGNALS ── -->
+<section class="trust-section" aria-labelledby="trust-heading">
+  <h2 id="trust-heading">Built on evidence</h2>
+  <div class="trust-stats">
+    <div class="trust-stat">
+      <span class="trust-num">400+</span>
+      <span class="trust-label">Published GOV.UK assessment reports analysed</span>
+    </div>
+    <div class="trust-stat">
+      <span class="trust-num">17.8%</span>
+      <span class="trust-label">Average Red rating frequency in published data</span>
+    </div>
+    <div class="trust-stat">
+      <span class="trust-num">14</span>
+      <span class="trust-label">Service Standard points covered in depth</span>
+    </div>
+  </div>
+  <p class="trust-note">Data sourced from published GOV.UK service assessment reports. Platform built to WCAG 2.2 AA compliance.</p>
+</section>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top" onclick="window.scrollTo({top:0})"><i data-lucide="arrow-up" style="width:20px;height:20px"></i></button>
 
 <footer class="site-footer">
   <div class="footer-brand">
@@ -2219,6 +2382,7 @@ function cdInit() {
       </div>`).join('');
   });
   cdUpdateProgress();
+  if (typeof lucide !== 'undefined') lucide.createIcons();
 }
 
 function cdToggle(id) {
@@ -2293,6 +2457,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (rr) rr.style.display = 'none';
   // Init countdown
   cdInit();
+  // Init completion tracking
+  updateCompletionUI();
 
   // Back to top
   const btt = document.getElementById('backToTop');
@@ -5777,6 +5943,7 @@ let idx = 0;
 
 function openModule(key, dataSource) {
   mod = (dataSource || PRO_M)[key];
+  currentModuleKey = key;
   idx = 0;
   _lastFocusBeforePlayer = document.activeElement;
   buildPlayer();
@@ -5812,6 +5979,7 @@ function buildPlayer() {
 
   renderAll();
   syncControls();
+  if (typeof lucide !== 'undefined') setTimeout(() => lucide.createIcons(), 50);
 }
 
 function renderAll() {
@@ -6022,7 +6190,12 @@ function goTo(target) {
 }
 
 function nextSlide() {
-  if (idx >= mod.slides.length - 1) { closePlayer(); return; }
+  if (idx >= mod.slides.length - 1) {
+    if (currentModuleKey) saveModuleCompletion(currentModuleKey);
+    closePlayer();
+    updateCompletionUI();
+    return;
+  }
   goTo(idx + 1);
 }
 
@@ -6057,6 +6230,107 @@ document.addEventListener('keydown', e => {
     if (e.key === 'Escape') closePlayer();
   }
 });
+
+// ── TAB FILTERING ──
+function filterTab(cat, btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => {
+    b.classList.remove('active');
+    b.setAttribute('aria-selected', 'false');
+  });
+  btn.classList.add('active');
+  btn.setAttribute('aria-selected', 'true');
+
+  // Show/hide sections based on category
+  const mainModules = document.getElementById('main-content');
+  const p3mSection = document.getElementById('p3m-content');
+  const wcagSection = document.getElementById('wcag-content');
+  const moduleCards = document.querySelectorAll('.modules[aria-label="Free learning modules"] .module-card');
+
+  // Reset visibility
+  if (p3mSection) p3mSection.style.display = '';
+  if (wcagSection) wcagSection.style.display = '';
+  moduleCards.forEach(c => c.style.display = '');
+
+  if (cat === 'all') return;
+  if (cat === 'standard') {
+    if (p3mSection) p3mSection.style.display = 'none';
+    if (wcagSection) wcagSection.style.display = 'none';
+  } else if (cat === 'p3m') {
+    if (wcagSection) wcagSection.style.display = 'none';
+    moduleCards.forEach(c => c.style.display = 'none');
+  } else if (cat === 'accessibility') {
+    if (p3mSection) p3mSection.style.display = 'none';
+    moduleCards.forEach(c => c.style.display = 'none');
+  }
+}
+
+// ── COMPLETION TRACKING ──
+let currentModuleKey = null;
+
+function saveModuleCompletion(key) {
+  try {
+    const completed = JSON.parse(localStorage.getItem('sar_completed') || '[]');
+    if (!completed.includes(key)) {
+      completed.push(key);
+      localStorage.setItem('sar_completed', JSON.stringify(completed));
+    }
+  } catch(e) {}
+}
+
+function getCompletedModules() {
+  try { return JSON.parse(localStorage.getItem('sar_completed') || '[]'); } catch(e) { return []; }
+}
+
+function updateCompletionUI() {
+  const completed = getCompletedModules();
+  const allKeys = ['sp14','assessment','phases','research','roles','govs002','prince2','prince2agile','msp','mop','wcag22'];
+
+  document.querySelectorAll('.module-card').forEach(card => {
+    const onclick = card.getAttribute('onclick') || '';
+    const match = onclick.match(/openFree\('(\w+)'\)/);
+    if (match && completed.includes(match[1])) {
+      card.classList.add('completed');
+      if (!card.querySelector('.completion-badge')) {
+        const badge = document.createElement('span');
+        badge.className = 'completion-badge';
+        badge.setAttribute('aria-label', 'Completed');
+        badge.innerHTML = '<i data-lucide="check-circle"></i>';
+        const top = card.querySelector('.card-top');
+        if (top) top.appendChild(badge);
+      }
+    }
+  });
+
+  const freeKeys = ['sp14','assessment','phases','research','roles','govs002'];
+  const completedCount = completed.filter(k => freeKeys.includes(k)).length;
+  const progressEl = document.getElementById('completion-progress');
+  if (progressEl) {
+    progressEl.textContent = completedCount > 0 ? completedCount + ' of ' + freeKeys.length + ' modules completed' : '';
+  }
+  if (typeof lucide !== 'undefined') lucide.createIcons();
+}
+
+// ── PRO BANNER SIGNUP ──
+function submitBannerSignup() {
+  const emailEl = document.getElementById('proBannerEmail');
+  const email = (emailEl.value || '').trim();
+  const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!email || !emailRe.test(email)) {
+    emailEl.style.borderColor = 'var(--red)';
+    emailEl.focus();
+    return;
+  }
+  emailEl.style.borderColor = '';
+  try {
+    const list = JSON.parse(localStorage.getItem('sar_signups') || '[]');
+    if (!list.includes(email)) { list.push(email); localStorage.setItem('sar_signups', JSON.stringify(list)); }
+  } catch(e) {}
+  const cta = emailEl.closest('.pro-banner-cta');
+  if (cta) cta.innerHTML = '<p style="color:var(--green);font-weight:600;font-size:.88rem">You\'re on the list. We\'ll email you when Pro launches.</p>';
+}
+
+// Initialize Lucide icons
+if (typeof lucide !== 'undefined') lucide.createIcons();
 </script>
 </body>
 </html>
